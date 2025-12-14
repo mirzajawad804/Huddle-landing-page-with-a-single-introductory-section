@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: #674bb1;
+    background-image: url(bg-desktop.svg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.logo-img{
+    width: 150px;
+    margin: 50px 0 0 50px;
+}
+.tablet-img{
+    position: relative;
+    top: 70px;
+    left: 50px;
+    width: 500px;
+}
+.container3{
+  position: absolute;
+  top: 170px;
+  left: 600px;
+
+
+}
+.cont3-item1{
+color: #fefff8;
+font-size: 30px;
+ word-spacing: 10px;
+ letter-spacing: 1px;
+}
+.cont3-item2{
+    color: #cfc0ef;
+ word-spacing: 3px;
+ letter-spacing: 0.5px;
+}
+.btn{
+    margin-top: 30px;
+    padding: 15px 40px;
+    background-color: #fefff8;
+    color: #674bb1;
+    font-weight: bold;
+    border: none;
+    width: 150px;
+    border-radius: 25px;
+    cursor: pointer;    
+     position: absolute;
+  top: 330px;
+  left: 600px;
+}
+.icon1{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 200px;
+
+    
+}
+#icon-item1{
+    position: relative;
+    top: 10px;
+}
+.icon2{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 150px;
+
+    
+}
+#icon-item2{
+    position: relative;
+    top: 10px;
+}
+.icon3{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+
+    
+}
+#icon-item3{
+    position: relative;
+    top: 10px;
+}
+#icon-item3:active{
+    border: 1px solid pink;
+}
